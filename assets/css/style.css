@@ -1154,13 +1154,22 @@ section {
 #footer .copyright {
   text-align: center;
   float: left;
+  color: white;
 }
 
-#footer .credits {
+#footer .copyright span a{
+  color: #5846f9;
+}
+
+#footer .foot {
   color: white;
   float: right;
   text-align: center;
   font-size: 13px;
+}
+
+#footer .foot a {
+  color: black;
 }
 
 @media (max-width: 768px) {
